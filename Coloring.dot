@@ -1,0 +1,22 @@
+graph
+{
+1 [fillcolor = Blue , style = filled];
+2 [fillcolor = Brown , style = filled];
+3 [fillcolor = Blue , style = filled];
+4 [fillcolor = Blue , style = filled];
+5 [fillcolor = Brown , style = filled];
+6 [fillcolor = Blue , style = filled];
+7 [fillcolor = Blue , style = filled];
+8 [fillcolor = Brown , style = filled];
+9 [fillcolor = Brown , style = filled];
+10 [fillcolor = Brown , style = filled];
+1--2;
+2--3;
+2--4;
+3--5;
+5--6;
+5--7;
+6--8;
+7--10;
+9--1;
+}
